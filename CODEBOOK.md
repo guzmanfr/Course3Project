@@ -17,7 +17,7 @@ subjectTrain: Trining data set
 subjectTest: Test data set
 
 # 3 Merges the training and the test sets to create one data set (for ANSWER OF POINT 1).
-subject <- rbind(subjectTrain, subjectTest)
+subject: row binded Training and Tests data sets
 X: x test data
 Y: y test data
 dataSet: Column binded X & Y 
@@ -29,13 +29,13 @@ onlyMeanStd: Means and STDs
 onlyMeanStd$Code: descriptive names
 
 # 6 Appropriately labels the data set with descriptive variable names (for ANSWER OF POINT 4)
-# 6.1 Labels to change
-# Acc can be replaced with Accelerometer
-# Gyro can be replaced with Gyroscope
-# BodyBody can be replaced with Body
-# Mag can be replaced with Magnitude
-# Character f can be replaced with Frequency
-# Character t can be replaced with Time
+## 6.1 Labels to change
+Acc can be replaced with Accelerometer
+Gyro can be replaced with Gyroscope
+BodyBody can be replaced with Body
+Mag can be replaced with Magnitude
+Character f can be replaced with Frequency
+Character t can be replaced with Time
 
 # 6.2 Labels change
 names(onlyMeanStd)[2] <- "Activity"
