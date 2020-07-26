@@ -32,38 +32,12 @@ onlyMeanStd: Means and STDs
 onlyMeanStd$Code: descriptive names
 
 # 6 Appropriately labels the data set with descriptive variable names (for ANSWER OF POINT 4)
-## 6.1 Labels to change
 Acc can be replaced with Accelerometer
 Gyro can be replaced with Gyroscope
 BodyBody can be replaced with Body
 Mag can be replaced with Magnitude
 Character f can be replaced with Frequency
 Character t can be replaced with Time
-
-# 6.2 Labels change
-names(onlyMeanStd)[2] <- "Activity"
-names(onlyMeanStd) <- gsub("Acc", "Accelerometer", names(onlyMeanStd))
-names(onlyMeanStd) <- gsub("BodyBody", "Body", names(onlyMeanStd))
-
-names(onlyMeanStd) <- gsub("Mag", "Magnitude", names(onlyMeanStd))
-
-names(onlyMeanStd) <- gsub("Gyro", "Gyroscope", names(onlyMeanStd))
-
-names(onlyMeanStd) <- gsub("^t", "Time", names(onlyMeanStd))
-
-names(onlyMeanStd) <- gsub("tBody", "TimeBody", names(onlyMeanStd))
-
-names(onlyMeanStd) <- gsub("^f", "Frequency", names(onlyMeanStd))
-
-names(onlyMeanStd) <- gsub("-mean()", "Mean", names(onlyMeanStd),ignore.case = TRUE)
-
-names(onlyMeanStd) <- gsub("-std()", "STD", names(onlyMeanStd), ignore.case = TRUE)
-
-names(onlyMeanStd) <- gsub("-freq()", "Frequency", names(onlyMeanStd), ignore.case = TRUE)
-
-names(onlyMeanStd) <- gsub("angle", "Angle", names(onlyMeanStd))
-
-names(onlyMeanStd) <- gsub("gravity", "Gravity", names(onlyMeanStd))
 
 # 7 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject (for POINT 5 answer)
 tidydata: processed data in memory
