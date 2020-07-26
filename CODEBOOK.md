@@ -41,7 +41,7 @@ Character f can be replaced with Frequency
 Character t can be replaced with Time
 
 # 6.2 Labels change
-names(onlyMeanStd)[2] <- "Activity" "\n"
+names(onlyMeanStd)[2] <- "Activity"
 names(onlyMeanStd) <- gsub("Acc", "Accelerometer", names(onlyMeanStd))
 names(onlyMeanStd) <- gsub("BodyBody", "Body", names(onlyMeanStd))
 
