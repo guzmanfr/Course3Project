@@ -18,8 +18,11 @@ subjectTest: Test data set
 
 # 3 Merges the training and the test sets to create one data set (for ANSWER OF POINT 1).
 subject: row binded Training and Tests data sets
+
 X: x test data
+
 Y: y test data
+
 dataSet: Column binded X & Y 
 
 # 4 Extracts only the measurements on the mean and standard deviation for each measurement (for ANSWER OF POINT 2)
