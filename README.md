@@ -1,4 +1,4 @@
-### Course: "Getting and Cleaning Data" Project
+### Course "Getting and Cleaning Data" Project
 
 Included R script, run_analysis.R, conducts the following:
 1. Download the dataset from web if it does not already exist in the working directory.
