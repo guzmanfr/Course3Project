@@ -9,6 +9,6 @@ Included R script, run_analysis.R, conducts the following:
 
 Files:
 1. README.md this file
-2. CodeBook.md a code book that describes the variables, the data, and any transformations or work that was performed to clean up the data
+2. CODEBOOK.md a code book that describes the variables, the data, and any transformations or work that was performed to clean up the data
 3. run_analysis.R performs the data preparation and then followed by the 5 steps required as described in the course project’s definition
 4. FinalData.txt is the exported final data after going through all the sequences described above.
